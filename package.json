@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "build": "lessc lib/main.less dist/css-utils.min.css --clean-css --autoprefix=\"last 2 versions\""
   },
   "repository": {
     "type": "git",
@@ -18,5 +18,10 @@
   "bugs": {
     "url": "https://github.com/haotangio/css-utils/issues"
   },
-  "homepage": "https://github.com/haotangio/css-utils#readme"
+  "homepage": "https://github.com/haotangio/css-utils#readme",
+  "devDependencies": {
+    "less": "^2.7.2",
+    "less-plugin-autoprefix": "^1.5.1",
+    "less-plugin-clean-css": "^1.5.1"
+  }
 }
