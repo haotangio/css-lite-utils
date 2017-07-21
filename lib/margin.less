@@ -1,0 +1,24 @@
+// Margin
+
+.generateSpacing(@n) when (@n >= 0) {
+  .generateSpacing(@n - 1);
+  @how: @n * 5;
+  .u-margin@{how} {
+    margin: @how * 1px !important;
+  }
+  .u-marginTop@{how} {
+    margin-top: @how * 1px !important;
+  }
+  .u-marginBottom@{how} {
+    margin-bottom: @how * 1px !important;
+  }
+  .u-marginLeft@{how} {
+    margin-left: @how * 1px !important;
+  }
+  .u-marginRight@{how} {
+    margin-right: @how * 1px !important;
+  }
+}
+.generateSpacing(10);
+
+// Margin - end

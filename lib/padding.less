@@ -1,0 +1,24 @@
+// Padding
+
+.generateSpacing(@n) when (@n >= 0) {
+  .generateSpacing(@n - 1);
+  @how: @n * 5;
+  .u-padding@{how} {
+    padding: @how * 1px !important;
+  }
+  .u-paddingTop@{how} {
+    padding-top: @how * 1px !important;
+  }
+  .u-paddingBottom@{how} {
+    padding-bottom: @how * 1px !important;
+  }
+  .u-paddingLeft@{how} {
+    padding-left: @how * 1px !important;
+  }
+  .u-paddingRight@{how} {
+    padding-right: @how * 1px !important;
+  }
+}
+.generateSpacing(10);
+
+// Padding - end

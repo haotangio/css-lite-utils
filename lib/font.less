@@ -1,0 +1,20 @@
+// Font size
+
+.generateFontSize(@n) when (@n > 0) {
+  .generateFontSize(@n - 1);
+  @how: @n * 4;
+  .u-fontSize@{how} {
+    font-size: @how * 1px !important;
+  }
+}
+.generateFontSize(10);
+
+// Font size - end
+
+// Font weight
+
+.u-fontWeightBold {
+  font-weight: bold !important;
+}
+
+// Font weight - end
