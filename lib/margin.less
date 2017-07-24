@@ -1,7 +1,7 @@
 // Margin
 
-.generateSpacing(@n) when (@n >= 0) {
-  .generateSpacing(@n - 1);
+.generateMargin(@n) when (@n >= 0) {
+  .generateMargin(@n - 1);
   @how: @n * 5;
   .u-margin@{how} {
     margin: @how * 1px !important;
@@ -19,6 +19,6 @@
     margin-right: @how * 1px !important;
   }
 }
-.generateSpacing(10);
+.generateMargin(10);
 
 // Margin - end

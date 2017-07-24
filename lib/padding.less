@@ -1,7 +1,7 @@
 // Padding
 
-.generateSpacing(@n) when (@n >= 0) {
-  .generateSpacing(@n - 1);
+.generatePadding(@n) when (@n >= 0) {
+  .generatePadding(@n - 1);
   @how: @n * 5;
   .u-padding@{how} {
     padding: @how * 1px !important;
@@ -19,6 +19,6 @@
     padding-right: @how * 1px !important;
   }
 }
-.generateSpacing(10);
+.generatePadding(10);
 
 // Padding - end
