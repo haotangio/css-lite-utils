@@ -1,8 +1,23 @@
+.u-displayNone {
+  display: none !important;
+}
+.u-displayBlock {
+  display: block !important;
+}
 .u-displayInlineBlock {
   display: inline-block !important;
 }
+.u-displayInline {
+  display: inline !important;
+}
 .u-displayListItem {
   display: list-item !important;
+}
+.u-displayTable {
+  display: table !important;
+}
+.u-displayTableRow {
+  display: table-row !important;
 }
 .u-displayTableCell {
   display: table-cell !important;
@@ -384,6 +399,18 @@
 }
 .u-textAlignCenter {
   text-align: center;
+}
+.u-verticalAlignBaseline {
+  vertical-align: baseline !important;
+}
+.u-verticalAlignBottom {
+  vertical-align: bottom !important;
+}
+.u-verticalAlignMiddle {
+  vertical-align: middle !important;
+}
+.u-verticalAlignTop {
+  vertical-align: top !important;
 }
 .u-floatLeft {
   float: left;
