@@ -1,4 +1,4 @@
-# css-utils
+# css-lite-utils
 Set of CSS utility classes for repeatedly writing basic styles.
 
 Inspired by [Medium_CSS_Style_Guide](https://gist.github.com/cuibonobo/16f555c0047ab80044cf).

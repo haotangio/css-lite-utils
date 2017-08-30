@@ -1,14 +1,14 @@
 {
-  "name": "css-utils",
+  "name": "css-lite-utils",
   "version": "0.0.1",
   "description": "Set of CSS utility class which may help you save lot of time for repeatedly writing basic styles",
   "main": "index.js",
   "scripts": {
-    "build": "lessc lib/main.less dist/css-utils.css | lessc lib/main.less dist/css-utils.min.css --clean-css --autoprefix=\"last 2 versions\""
+    "build": "lessc lib/main.less dist/css-lite-utils.css | lessc lib/main.less dist/css-lite-utils.min.css --clean-css --autoprefix=\"last 2 versions\""
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/haotangio/css-utils.git"
+    "url": "git+https://github.com/haotangio/css-lite-utils.git"
   },
   "keywords": [
     "css",
@@ -17,9 +17,9 @@
   "author": "Hao Tang",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/haotangio/css-utils/issues"
+    "url": "https://github.com/haotangio/css-lite-utils/issues"
   },
-  "homepage": "https://github.com/haotangio/css-utils#readme",
+  "homepage": "https://github.com/haotangio/css-lite-utils#readme",
   "devDependencies": {
     "less": "^2.7.2",
     "less-plugin-autoprefix": "^1.5.1",
