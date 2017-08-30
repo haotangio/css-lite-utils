@@ -23,7 +23,7 @@ It's there on build directory, just copy and use.
 - `.u-displayTableCell`
 
 ##### text-align
-- `.u-texAlignLeft`
+- `.u-textAlignLeft`
 - `.u-textAlignRight`
 - `.u-textAlignCenter`
 
