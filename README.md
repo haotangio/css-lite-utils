@@ -36,3 +36,18 @@ It's there on build directory, just copy and use.
 ###### float
 - `.u-floatLeft`
 - `.u-floatRight`
+
+###### margin
+- `.u-margin0`, `.u-margin5`, ... , `.u-margin45`, `.u-margin50`
+- `.u-marginTop0`, `.u-marginTop5`, ... , `.u-marginTop45`, `.u-marginTop50`
+- `.u-marginBottom0`, `.u-marginBottom5`, ... , `.u-marginBottom45`, `.u-marginBottom50`
+- `.u-marginLeft0`, `.u-marginLeft5`, ... , `.u-marginLeft45`, `.u-marginLeft50`
+- `.u-marginRight0`, `.u-marginRight5`, ... , `.u-marginRight45`, `.u-marginRight50`
+
+###### padding
+- `.u-padding0`, `.u-padding5`, ... , `.u-padding45`, `.u-padding50`
+- `.u-paddingTop0`, `.u-paddingTop5`, ... , `.u-paddingTop45`, `.u-paddingTop50`
+- `.u-paddingBottom0`, `.u-paddingBottom5`, ... , `.u-paddingBottom45`, `.u-paddingBottom50`
+- `.u-paddingLeft0`, `.u-paddingLeft5`, ... , `.u-paddingLeft45`, `.u-paddingLeft50`
+- `.u-paddingRight0`, `.u-paddingRight5`, ... , `.u-paddingRight45`, `.u-paddingRight50`
+
