@@ -9,14 +9,14 @@ Inspired by [Medium_CSS_Style_Guide](https://gist.github.com/cuibonobo/16f555c00
 npm install --save css-lite-utils
 ```
 
-`your-main.less`
+**_your-main.less_**
 ```
 @import "<PROJECT-ROOT>/node_modules/css-lite-utils/lib/main.less"
 ```
 #### Use compiled CSS file
 Copy `dist/css-lite-utils.min.css` to your static asset folder.
 
-`your.html`
+**_your.html_**
 ```
 <link href='<PATH>/css-lite-utils.min.css' rel='stylesheet' type='text/css'> 
 ```
