@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "build": "lessc lib/main.less dist/css-lite-utils.css | lessc lib/main.less dist/css-lite-utils.min.css --clean-css --autoprefix=\"last 2 versions\"",
-    "prepublish": "npm build"
+    "preversion": "npm build"
   },
   "repository": {
     "type": "git",
