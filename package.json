@@ -4,7 +4,8 @@
   "description": "Set of CSS utility class which may help you save lot of time for repeatedly writing basic styles",
   "main": "index.js",
   "scripts": {
-    "build": "lessc lib/main.less dist/css-lite-utils.css | lessc lib/main.less dist/css-lite-utils.min.css --clean-css --autoprefix=\"last 2 versions\""
+    "build": "lessc lib/main.less dist/css-lite-utils.css | lessc lib/main.less dist/css-lite-utils.min.css --clean-css --autoprefix=\"last 2 versions\"",
+    "prepublish": "npm build"
   },
   "repository": {
     "type": "git",
