@@ -68,19 +68,39 @@ Size is 0px - 50px incrementing up by 5px
 - `.u-paddingLeft0`, `.u-paddingLeft5`, ... , `.u-paddingLeft45`, `.u-paddingLeft50`
 - `.u-paddingRight0`, `.u-paddingRight5`, ... , `.u-paddingRight45`, `.u-paddingRight50`
 
+##### width & height
+Size is 5% - 100% incrementing up by 5%
+###### Width
+- `.u-width0Perc`, `.u-width5Perc`, ... , `.u-width95Perc`, `.u-width100Perc`
+- `.u-maxWidth0Perc`, `.u-maxWidth5Perc`, ... , `.u-maxWidth95Perc`, `.u-maxWidth100Perc`
+- `.u-minWidth0Perc`, `.u-minWidth5Perc`, ... , `.u-minWidth95Perc`, `.u-minWidth100Perc`
+###### Height
+- `.u-height0Perc`, `.u-height5Perc`, ... , `.u-height95Perc`, `.u-height100Perc`
+- `.u-maxHeight0Perc`, `.u-maxHeight5Perc`, ... , `.u-maxHeight95Perc`, `.u-maxHeight100Perc`
+- `.u-minHeight0Perc`, `.u-minHeight5Perc`, ... , `.u-minHeight95Perc`, `.u-minHeight100Perc`
+
 ##### font
 Size is 4px - 40px incrementing up by 4px
 - `.u-fontSize4`, `.u-fontSize8`, ... , `.u-fontSize36`, `.u-fontSize40`
 - `.u-fontWeightBold`
 
 ##### responsive show-hide
-* Mobile screen: max-width 767px
-* Tablet screen: min-width 768px and max-width: 991px
-* Computer screen: min-width 992px
-- `.u-computerOnly`: Element only displayed on computer
-- `.u-tabletOnly`: Element only displayed on tablet
-- `.u-mobileOnly`: Element only displayed on mobile
+###### Screen types
+- Mobile: `max-width: 767px`
+- Tablet: `min-width: 768px` and `max-width: 991px`
+- Computer: `min-width: 992px`
+###### Classes
+- `.u-computerOnly`: Only displayed on computer
+- `.u-tabletOnly`: Only displayed on tablet
+- `.u-mobileOnly`: Only displayed on mobile
 
-Combination:
-- `.u-computerOnly.u-tabletOnly`: Element only displayed on computer and tablet
+###### Combination:
+- `.u-computerOnly.u-tabletOnly`: only displayed on computer and tablet
 - And so on with `.u-computerOnly.u-mobileOnly`, `.u-tabletOnly.u-mobileOnly`, ...
+
+##### Misc classes
+Some common classes
+- `.u-clearBoth`
+- `.u-cursorPointer`
+- `.u-textTransformUppercase`
+- `.u-textTransformLowercase`

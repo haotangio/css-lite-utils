@@ -1,0 +1,27 @@
+// Width-height
+
+.generateWidth(@n) when (@n >= 1) {
+  .generateWidth(@n - 1);
+  @how: @n * 5;
+  .u-width@{how}Perc {
+    width: @how * 1% !important;
+  }
+  .u-maxWidth@{how}Perc {
+    width: @how * 1% !important;
+  }
+  .u-minWidth@{how}Perc {
+    width: @how * 1% !important;
+  }
+  .u-height@{how}Perc {
+    height: @how * 1% !important;
+  }
+  .u-maxHeight@{how}Perc {
+    height: @how * 1% !important;
+  }
+  .u-minHeight@{how}Perc {
+    height: @how * 1% !important;
+  }
+}
+.generateWidth(20);
+
+// Width-height - end
