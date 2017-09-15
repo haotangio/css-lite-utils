@@ -1,7 +1,10 @@
 # css-lite-utils
 Set of CSS utility classes for repeatedly writing basic styles.
 
-Inspired by [Medium_CSS_Style_Guide](https://gist.github.com/cuibonobo/16f555c0047ab80044cf).
+- Used for [thetruesight.com](thetruesight.com)
+- Inspired by [Medium_CSS_Style_Guide](https://gist.github.com/cuibonobo/16f555c0047ab80044cf).
+- NPM: https://www.npmjs.com/package/css-lite-utils
+- Github: https://github.com/haotangio/css-lite-utils
 
 # Getting Started
 #### Use `LESS` version
@@ -19,6 +22,11 @@ Copy `dist/css-lite-utils.min.css` to your static asset folder.
 **_your.html_**
 ```
 <link href='<PATH>/css-lite-utils.min.css' rel='stylesheet' type='text/css'> 
+```
+#### Build by your own
+```
+git clone https://github.com/haotangio/css-lite-utils.git
+npm run build
 ```
 
 # Classes
